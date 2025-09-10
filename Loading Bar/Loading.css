@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #222;
+    color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    text-align: center;
+    width: 400px;
+    position: relative;
+}
+
+.counter{
+    font-size: 40px;
+}
+
+.loading-bar-back{
+    position: absolute;
+    height: 8px;
+    background-color: lightgrey;
+    width:100%;
+    border-radius: 4px;
+    border: none;
+}
+
+.loading-bar-front{
+    position: absolute;
+    height: 8px;
+    background-color: seagreen;
+    width:0%;
+    border-radius: 4px;
+    border: none;
+}
